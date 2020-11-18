@@ -1,0 +1,23 @@
+.footer {
+  height: 100px;
+  background: lightgrey;
+
+  &-inner-container {
+    padding: 15px;
+  }
+
+  &-links-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-link {
+    margin-right: 15px;
+
+    &-active {
+      font-weight: 800;
+    }
+  }
+}
